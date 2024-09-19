@@ -4,7 +4,6 @@
   <br>
   <img src="https://github.com/IvBanzaga/UrbanManager/blob/main/spring%20initializr.png" alt="spring initializr">
   <br>
-  <img src="https://github.com/IvBanzaga/UrbanManager/blob/main/dbdocs.GIF">
   <br>
 </h1>
 Aplicación que permita a los usuarios capturar fotos o videos de problemas urbanos como residuos sin recoger, calzadas en mal estado, contaminación lumínica, semáforos averiados, o vehículos mal aparcados
@@ -17,3 +16,6 @@ Aplicación que permita a los usuarios capturar fotos o videos de problemas urba
   <li><a href="https://discord.gg/tyug6TQH" target="_blank">Solicitar acceso y contraseña para colaboración</a></li>
 </ol>
 
+<br>
+<br>
+<img src="https://github.com/IvBanzaga/UrbanManager/blob/main/dbdocs.GIF">
