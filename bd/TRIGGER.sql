@@ -100,4 +100,15 @@ BEGIN
 END;
 //
 
+CREATE TRIGGER update_user_dni
+AFTER INSERT ON media
+FOR EACH ROW
+BEGIN
+    IF NEW.dni IS NOT NULL THEN
+        UPDATE user
+        SET dni = NEW.dni
+        WHERE id = NEW.user_id AND dni IS NULL;
+    END IF;
+END //
+
 DELIMITER ;
