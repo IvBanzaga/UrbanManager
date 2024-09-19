@@ -9,4 +9,5 @@
 </h1>
 Aplicación que permita a los usuarios capturar fotos o videos de problemas urbanos como residuos sin recoger, calzadas en mal estado, contaminación lumínica, semáforos averiados, o vehículos mal aparcados
 
-<h4 align="center">Urban Manager</h4>
+[Base de datos de UrbanManager](https://dbdocs.io/ivan.cpweb/urbanManager)
+[Solicitar contraseña](https://discord.com/channels/@me)
