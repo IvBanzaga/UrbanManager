@@ -4,6 +4,7 @@
   <br>
   <img src="https://github.com/IvBanzaga/UrbanManager/blob/main/spring%20initializr.png" alt="spring initializr">
   <br>
+  https://github.com/IvBanzaga/UrbanManager/blob/main/dbdocs.mp4
   <br>
 </h1>
 Aplicación que permita a los usuarios capturar fotos o videos de problemas urbanos como residuos sin recoger, calzadas en mal estado, contaminación lumínica, semáforos averiados, o vehículos mal aparcados
