@@ -1,5 +1,4 @@
-# Armar un Backlog de User Stories de tú proyecto personal :
----
+
 #### Aplicación de Reporte Ciudadano para el Mantenimiento Urbano
 
 1. Desarrollar una aplicación que permita a los ciudadanos capturar fotos o videos de problemas urbanos como residuos sin recoger, calzadas en mal estado, contaminación lumínica, semáforos averiados, o vehículos mal aparcados, etc ...
