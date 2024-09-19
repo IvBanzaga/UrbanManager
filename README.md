@@ -13,6 +13,6 @@ Aplicación que permita a los usuarios capturar fotos o videos de problemas urba
 <ol>
   <li><a href="https://dbdocs.io/ivan.cpweb/urbanManager" target="_blank">Base de datos de UrbanManager</a></li>
   <li><a href="https://ivancpweb.atlassian.net/jira/software/projects/RE/boards/4/backlog" target="_blank">Jira Scrum</a></li>
-  <li><a href="https://discord.gg/tyug6TQH" target="_blank">Solicitar acceso y contraseña</a></li>
+  <li><a href="https://discord.gg/tyug6TQH" target="_blank">Solicitar acceso y contraseña para colaboración</a></li>
 </ol>
 
