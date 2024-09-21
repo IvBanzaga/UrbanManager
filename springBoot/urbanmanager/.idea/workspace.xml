@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45949d3e-0057-4e79-8aae-13238febc9cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/urbanmanager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/enums/UserAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/enums/UserSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/models/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services/UserServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="45949d3e-0057-4e79-8aae-13238febc9cb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
