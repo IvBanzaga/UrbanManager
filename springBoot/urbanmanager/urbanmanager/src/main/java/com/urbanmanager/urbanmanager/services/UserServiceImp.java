@@ -1,6 +1,7 @@
 package com.urbanmanager.urbanmanager.services;
 
 import com.urbanmanager.urbanmanager.models.UserManager;
+import com.urbanmanager.urbanmanager.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -12,7 +13,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Service
-public class UserSeviceImp implements UserService {
+public class UserServiceImp implements UserService {
 
     @Autowired
     private UserRepository userRepository;

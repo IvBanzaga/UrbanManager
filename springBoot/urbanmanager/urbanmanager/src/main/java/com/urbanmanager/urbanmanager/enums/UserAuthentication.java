@@ -1,2 +1,6 @@
-package com.urbanmanager.urbanmanager.enums;public enum Authentication {
+package com.urbanmanager.urbanmanager.enums;
+
+public enum UserAuthentication {
+    email, gmail, facebook
+
 }
