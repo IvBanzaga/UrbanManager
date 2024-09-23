@@ -1,6 +1,6 @@
 package com.urbanmanager.urbanmanager.repository;
 
-import com.urbanmanager.urbanmanager.models.UserManager;
+import com.urbanmanager.urbanmanager.entities.UserManager;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

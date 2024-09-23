@@ -1,7 +1,7 @@
 package com.urbanmanager.urbanmanager.controllers;
 
 import com.urbanmanager.urbanmanager.services.UserServiceImp;
-import com.urbanmanager.urbanmanager.models.UserManager;
+import com.urbanmanager.urbanmanager.entities.UserManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

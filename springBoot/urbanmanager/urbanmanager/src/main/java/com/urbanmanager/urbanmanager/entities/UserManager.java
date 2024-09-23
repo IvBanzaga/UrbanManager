@@ -1,4 +1,4 @@
-package com.urbanmanager.urbanmanager.models;
+package com.urbanmanager.urbanmanager.entities;
 
 import com.urbanmanager.urbanmanager.enums.UserAuthentication;
 import com.urbanmanager.urbanmanager.enums.UserSection;

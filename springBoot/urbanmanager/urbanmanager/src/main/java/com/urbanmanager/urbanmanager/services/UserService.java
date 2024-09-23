@@ -1,6 +1,6 @@
 package com.urbanmanager.urbanmanager.services;
 
-import com.urbanmanager.urbanmanager.models.UserManager;
+import com.urbanmanager.urbanmanager.entities.UserManager;
 
 import java.util.List;
 import java.util.UUID;

@@ -1,6 +1,6 @@
 package com.urbanmanager.urbanmanager.services;
 
-import com.urbanmanager.urbanmanager.models.UserManager;
+import com.urbanmanager.urbanmanager.entities.UserManager;
 import com.urbanmanager.urbanmanager.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
