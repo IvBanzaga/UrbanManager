@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45949d3e-0057-4e79-8aae-13238febc9cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/vite.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
