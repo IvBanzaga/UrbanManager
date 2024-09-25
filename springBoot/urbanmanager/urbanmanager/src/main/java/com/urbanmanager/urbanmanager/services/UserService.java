@@ -5,23 +5,25 @@ import com.urbanmanager.urbanmanager.entities.UserManager;
 import java.util.List;
 import java.util.UUID;
 
+// Esta Interface define los métodos que se pueden realizar sobre un usuario
+
 public interface UserService {
 
-    // Devolver un cliente específico
+    // Devolver un usuario específico
     UserManager getUser(UUID id);
 
-    // Devolver todos los clientes
+    // Devolver todos los usuarios
     List<UserManager> getAllUsers();
 
-    // Eliminar Cliente
+    // Eliminar un usuario
     void deleteUser(UUID id);
 
-    // Agregar Cliente
+    // Agregar un usuario
     void addUser(UserManager user);
 
-    // Modificar Cliente
+    // Modificar un usuario
     void updateUser(UUID id, UserManager updateUser);
 
-    // Buscar Cliente
+    // Buscar un usuario
     List<UserManager> searchUser(String email, String phone, String address, String firstname, String lastname);
 }

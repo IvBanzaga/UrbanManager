@@ -8,9 +8,9 @@ type Props = {
 export const Auth0ProviderWithNavigate = ({ children }: Props) => {
   const navigate = useNavigate();
 
-  const domain = import.meta.env.VITE_AUTH0_DOMAIN = "dev-dol374uscihlludh.us.auth0.com";
-  const clientId = import.meta.env.VITE_AUTH0_CLIENT_ID = "6azKhObOtFCDQ1ow5VuAWalZruiw4kOV";
-  const redirectUri = import.meta.env.VITE_AUTH0_CALLBACK_URL = "http://localhost:5173/callback";
+  const domain = import.meta.env.VITE_AUTH0_DOMAIN;
+  const clientId = import.meta.env.VITE_AUTH0_CLIENT_ID;
+  const redirectUri = import.meta.env.VITE_AUTH0_CALLBACK_URL;
   const audience = import.meta.env.VITE_AUTH0_AUDIENCE;
 
   const onRedirectCallback = (appState: AppState | undefined) => {

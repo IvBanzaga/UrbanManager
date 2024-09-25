@@ -2,7 +2,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import axios from "axios";
 
 const Home = () => {
-  const { user, isAuthenticated } = useAuth0();
+  const { user, isAuthenticated, getAccessTokenSilently } = useAuth0();
 
   const callApi = async () => {
     try {
@@ -21,14 +21,35 @@ const Home = () => {
     }
   };
 
+  const callPrivateApi = async () => {
+    try {
+      const token = await getAccessTokenSilently();
+      const response = await axios.get(
+        `${import.meta.env.VITE_API_SERVER_URL}/api/private`,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+
+      console.log(response);
+
+      const responseData = response.data;
+
+      alert(responseData);
+    } catch (error) {
+      alert(error);
+      console.error(error);
+    }
+  };
+
   return (
-    <div className="flex flex-col items-center justify-center mx-96">
-      <h1 className="mb-4 text-2xl font-bold">Esta es la pagina de inicio.</h1>
+    <div className="flex flex-col items-center justify-center w-full px-4 py-8 mx-auto max-w-screen-lg">
+      <h1 className="mb-4 text-2xl font-bold text-center">Esta es la pagina de inicio.</h1>
       <div className="px-6 mb-4 text-justify">
-        Este proyecto utiliza el sdk de Auth0 para administrar login, logout y
-        registro de usuario, ademas de aplicar validaciones de permisos tanto
-        para las rutas establecidad en con react-router-dom como en las
-        peticiones que se realizaran a una API Rest hecha con Spring Boot.
+        Esta pagina es accesible para todos los usuarios, pero si inicias sesion
+        podras acceder a una API privada
       </div>
       {isAuthenticated ? (
         <div className="font-semibold text-green-500">
@@ -47,6 +68,16 @@ const Home = () => {
           Call Public API
         </button>
       </div>
+      {isAuthenticated && (
+        <div className="mt-4">
+          <button
+            onClick={callPrivateApi}
+            className="px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700"
+          >
+            Call Private API
+          </button>
+        </div>
+      )}
     </div>
   );
 };
