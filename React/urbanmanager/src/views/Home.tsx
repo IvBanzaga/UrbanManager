@@ -7,7 +7,7 @@ const Home = () => {
   const callApi = async () => {
     try {
       const response = await axios.get(
-        `${import.meta.env.VITE_API_SERVER_URL}/api/public`
+        `${import.meta.env.VITE_API_SERVER_URL}/api/user`
       );
 
       console.log(response);
@@ -25,7 +25,7 @@ const Home = () => {
     try {
       const token = await getAccessTokenSilently();
       const response = await axios.get(
-        `${import.meta.env.VITE_API_SERVER_URL}/api/private`,
+        `${import.meta.env.VITE_API_SERVER_URL}/api/user`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

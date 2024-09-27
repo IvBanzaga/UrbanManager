@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45949d3e-0057-4e79-8aae-13238febc9cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/Conexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/CustomAccessFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/controllers/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/dto/RequestLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/repository/RestTempateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services/AuthServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/utils/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/src/components/auth0/Auth0ProviderWithNavigate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../React/urbanmanager/src/components/auth0/Auth0ProviderWithNavigate.tsx" afterDir="false" />
+    <list default="true" id="45949d3e-0057-4e79-8aae-13238febc9cb" name="Changes" comment="corrigiendo una serie de errores en la api y aplicada la implementación Securirty Jwt">
+      <change afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React/urbanmanager/src/views/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../React/urbanmanager/src/views/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/UrbanmanagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/UrbanManagerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/entities/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/entities/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services/UserServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +100,20 @@
       <option name="presentableId" value="Default" />
       <updated>1726918535817</updated>
     </task>
+    <task id="LOCAL-00001" summary="corrigiendo una serie de errores en la api y aplicada la implementación Securirty Jwt">
+      <option name="closed" value="true" />
+      <created>1727283821961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283821961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="corrigiendo una serie de errores en la api y aplicada la implementación Securirty Jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrigiendo una serie de errores en la api y aplicada la implementación Securirty Jwt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

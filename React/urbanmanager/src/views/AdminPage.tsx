@@ -15,7 +15,7 @@ const AdminPage = () => {
       console.log("token: " + token);
 
       const response = await axios.get(
-        `${import.meta.env.VITE_API_SERVER_URL}/api/admin`,
+        `${import.meta.env.VITE_API_SERVER_URL}/api/user`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

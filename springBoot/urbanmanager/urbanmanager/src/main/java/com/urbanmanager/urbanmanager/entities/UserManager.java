@@ -33,11 +33,26 @@ public class UserManager {
 
     private UUID id;
 
-    private String firstname;
-    private String lastname;
-    private String second_lastname;
+    @Column(name = "dni", length = 10) // Especifica el tamaño deseado
+    private String dni;
+
+    @Column(name = "address", length = 255) // Especifica el tamaño deseado
     private String address;
+
+    @Column(name = "email", length = 100) // Especifica el tamaño deseado
+    private String email;
+
+    @Column(name = "firstname", length = 100) // Especifica el tamaño deseado
+    private String firstname;
+
+    @Column(name = "lastname", length = 100) // Especifica el tamaño deseado
+    private String lastname;
+
+    @Column(name = "phone", length = 20) // Especifica el tamaño deseado
     private String phone;
+
+    @Column(name = "second_lastname", length = 100) // Especifica el tamaño deseado
+    private String secondLastname;
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
@@ -45,7 +60,6 @@ public class UserManager {
     @Enumerated(EnumType.STRING)
     private UserAuthentication authentication;
 
-    private String email;
     private boolean confidentiality;
 
     @Enumerated(EnumType.STRING)
@@ -57,5 +71,4 @@ public class UserManager {
     private UUID country_id;
     private Timestamp date_created;
     private Timestamp date_deleted;
-    private String dni;
 }
