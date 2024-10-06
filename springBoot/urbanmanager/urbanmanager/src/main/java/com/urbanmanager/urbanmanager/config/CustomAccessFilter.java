@@ -47,7 +47,8 @@ public class CustomAccessFilter implements Filter {
         String[] availableUrl = new String[] {
                 "/api/auth/login",
                 "/api/auth/register",
-                "/api/user"
+                "/api/user",
+                "/api"
         };
 
         // Se comprueba si la URL actual está en la lista de URLs disponibles

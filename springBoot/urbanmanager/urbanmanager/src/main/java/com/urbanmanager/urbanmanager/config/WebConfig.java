@@ -1,4 +1,4 @@
-package com.urbanmanager.urbanmanager.config;
+/*package com.urbanmanager.urbanmanager.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,11 +14,11 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:5173") // Cambia esto a la URL de tu frontend
+                        .allowedOriginPatterns("http://localhost:5173") // Cambia esto a la URL de tu frontend
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*")
                         .allowCredentials(true);
             }
         };
     }
-}
+}*/

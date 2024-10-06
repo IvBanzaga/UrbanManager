@@ -13,8 +13,8 @@ import java.util.logging.Logger;
 @RestController
 
 // CrossOrigin sirve para permitir que los recursos de una página web se puedan cargar desde otro dominio
-@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
-
+//@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
+@CrossOrigin (value= "http://localhost:5173")
 public class UserController {
     @Autowired
 

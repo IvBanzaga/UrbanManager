@@ -1,6 +1,7 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import axios from "axios";
 
+// El componente Home es accesible para todos los usuarios, pero si inicias sesion
 const Home = () => {
   const { user, isAuthenticated, getAccessTokenSilently } = useAuth0();
 
@@ -21,6 +22,7 @@ const Home = () => {
     }
   };
 
+  // El componente callPrivateApi es accesible solo para los usuarios que han iniciado sesion
   const callPrivateApi = async () => {
     try {
       const token = await getAccessTokenSilently();

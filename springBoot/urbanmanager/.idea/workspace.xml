@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45949d3e-0057-4e79-8aae-13238febc9cb" name="Changes" comment="corrigiendo una serie de errores en la api y aplicada la implementación Securirty Jwt" />
+    <list default="true" id="45949d3e-0057-4e79-8aae-13238febc9cb" name="Changes" comment="corrigiendo una serie de errores en la api y aplicada la implementación Securirty Jwt">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanmanager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/CustomAccessFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/CustomAccessFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/controllers/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +65,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/0.3 Atl Academy/Urban Manager/springBoot/urbanmanager/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services&quot;
+    &quot;last_opened_file_path&quot;: &quot;G:/0.3 Atl Academy/Urban Manager/springBoot/urbanmanager/urbanmanager/src/main/java/com/urbanmanager/urbanmanager/services&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
